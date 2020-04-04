@@ -7,7 +7,7 @@ import os
 
 URL = 'http://www.mrk-bsuir.by/ru'
 recheck_time = 5 # seconds
-DirLink = 'c:/Users/zen11/Desktop/Python/Mrk_bsuir_parser/'
+DirLink = 'C:/Users/shut7/OneDrive/Рабочий стол/MRK-parser/'
 
 def get_html(url):
     r = requests.get(url)

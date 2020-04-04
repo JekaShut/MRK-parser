@@ -20,3 +20,10 @@ convert = soup.find("div", id="confirmedCases").text
 print(convert)
 
 driver.quit()
+full_page = requests.get(url, headers=headers, timeout=10)
+
+soup = BeautifulSoup(full_page.content, 'html.parser')
+
+convert = soup.find("div", id="PageContent_C119_Col00")
+print(convert)
+
