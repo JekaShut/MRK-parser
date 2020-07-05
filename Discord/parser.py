@@ -1,4 +1,4 @@
-import requests
+import requests 
 from bs4 import BeautifulSoup
 import time
 from pdf2image import convert_from_path
